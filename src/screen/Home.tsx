@@ -30,6 +30,9 @@ const Home = ({navigation}) => {
     sunset,
   } = useContext(WeatherContext);
 
+  console.log(sunrise);
+  
+
   // const [time, setTime] = useState([
   //   {
   //     time: '12 AM',

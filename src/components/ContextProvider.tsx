@@ -118,6 +118,7 @@ const ContextProvider = ({children}) => {
         temp: res.data.forecast.forecastday[0].hour[0].temp_c,
         maxTemp: res.data.forecast.forecastday[0].day.maxtemp_c,
         minTemp: res.data.forecast.forecastday[0].day.mintemp_c,
+
         temp1: res.data.forecast.forecastday[1].day.avgtemp_c,
         img1: res.data.forecast.forecastday[1].day.condition.icon,
         maxTemp1: res.data.forecast.forecastday[1].day.maxtemp_c,
