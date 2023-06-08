@@ -7,7 +7,6 @@ import axiosInstance from '../utils/axiosInstance';
 export const WeatherContext = createContext();
 
 const ContextProvider = ({children}) => {
-  const [loadproduct, setLoadProducrt] = useState([]);
   const [state, setState] = useState('Bangalore');
   const [weatherData, setWeatherData] = useState({
     Name: 'Bangalore',
@@ -18,7 +17,7 @@ const ContextProvider = ({children}) => {
     maxTemp: '29.0',
     cmt: 'Partly cloudy',
 
-    temp1: "32.9",
+    temp1: '32.9',
     img1: '//cdn.weatherapi.com/weather/64x64/day/113.png',
     maxTemp1: 36.8,
     minTemp1: 19.5,
@@ -278,7 +277,6 @@ const ContextProvider = ({children}) => {
     }),
     [
       loadData,
-      loadproduct,
       weatherData,
       state,
       setState,

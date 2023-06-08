@@ -23,7 +23,6 @@ const Home = ({navigation}) => {
     weatherData,
     state,
     setState,
-    loadProducts,
     loadData,
     duration,
     sunrise,
